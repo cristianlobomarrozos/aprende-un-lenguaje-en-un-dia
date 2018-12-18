@@ -58,6 +58,20 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
 
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"¡Hola Mundo!";
+
+    return 0;
+}
+
+```
+
 ### 2. Pirámide
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
